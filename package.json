@@ -1,0 +1,38 @@
+{
+  "name": "emotia",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "expo start -c",
+    "dev:offline": "expo start -c --offline",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "build-ios": "eas build -p ios",
+    "build-apk": "eas build -p android --profile preview",
+    "build-apk-prod": "eas build -p android --profile production",
+    "start": "expo start --dev-client"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "2.1.2",
+    "@react-navigation/native": "^7.1.14",
+    "@react-navigation/native-stack": "^7.3.21",
+    "dayjs": "^1.11.13",
+    "expo": "~53.0.16",
+    "expo-constants": "~17.1.6",
+    "expo-device": "~7.1.4",
+    "expo-image": "^2.3.2",
+    "expo-notifications": "~0.31.3",
+    "expo-status-bar": "~2.2.3",
+    "react": "19.0.0",
+    "react-native": "0.79.5",
+    "react-native-emoji": "^1.8.0",
+    "react-native-flexbox-grid": "^0.3.2",
+    "react-native-safe-area-context": "5.4.0",
+    "react-native-screens": "~4.11.1",
+    "react-native-vector-icons": "^10.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}

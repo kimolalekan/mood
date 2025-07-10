@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Emotia",
+    "slug": "emotia",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F6EDE3"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.weissthorn.emotia"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#F6EDE3"
+      },
+      "package": "com.weissthorn.emotia",
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4fe5ab16-f6e8-4d14-a65e-e9f0bf5af072"
+      }
+    }
+  }
+}
